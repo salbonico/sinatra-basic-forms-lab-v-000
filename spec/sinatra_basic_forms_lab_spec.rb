@@ -66,7 +66,7 @@ describe App do
       binding.pry
       expect(page).to have_text(/Name:\s+Butch/i)
       expect(page).to have_text(/Breed:\s+Mastiff/i)
-      expect(page).to have_text(/Age:\s+6/i)
+      expect(page).to have_text(/Age:\s+6 months/i)
 
       #now do it again, to be sure it's not hard-coded
       visit '/new'
